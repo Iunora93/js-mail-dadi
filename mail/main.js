@@ -15,9 +15,9 @@ console.log(listMail);
 const eMail = prompt ("Scrivi la tua email");
 console.log(eMail);
 
-const liberoAccesso = listMail[0];
+/* const liberoAccesso = listMail[0]; */
 
-if (eMail === liberoAccesso) {
+if (listMail.indexOf("eleonora@gmail.com", "edoardo@gmail.com", "guenda@gmail.com", "macho@gmail.com") != -1) {
     alert("l'utente ha l'accesso")
 } else {
     alert("l'utente non è abilitato all'accesso")    

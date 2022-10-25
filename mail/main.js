@@ -12,11 +12,11 @@ listMail[2]
 listMail[3]
 console.log(listMail);
 
+/* Chiedi all’utente la sua email */
 const eMail = prompt ("Scrivi la tua email");
 console.log(eMail);
 
-/* const liberoAccesso = listMail[0]; */
-
+/* controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo. */ 
 if (listMail.indexOf(eMail) != -1) {
     alert("l'utente ha l'accesso")
 } else {

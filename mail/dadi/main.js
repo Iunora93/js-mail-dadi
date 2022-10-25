@@ -11,8 +11,8 @@ console.log(`il numero dell\'utente:`, userNumber);
 const cpuNumber = Math.floor(Math.random() * 6) + 1;
 console.log(`il numero della cpu:`, cpuNumber);
 
+/* Stabilire il vincitore, in base a chi fa il punteggio più alto. */
 let result;
-
 if ( userNumber > cpuNumber) {
     result = alert("Hai vinto")
 } else if ( userNumber < cpuNumber) {
